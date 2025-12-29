@@ -1,15 +1,19 @@
-// projects.js - All project data in one place
-// Easy to add, edit, or remove projects
-
 export const projects = [
   {
     id: 1,
-    title: "Cloud Infrastructure Optimizer",
-    description: "Automated AWS/GCP infrastructure optimization tool that reduces cloud costs by 22% through intelligent resource right-sizing and monitoring.",
-    technologies: ["AWS", "Python", "Terraform", "Docker"],
+    title: "WNP Brokerage - Multi-Platform Deployment",
+    description: "Veteran-owned web development business website showcasing professional services. Successfully deployed across 5 major cloud platforms demonstrating deployment expertise and platform versatility.",
+    technologies: ["React", "Vite", "Tailwind", "Firebase", "AWS"],
     githubUrl: "https://github.com/dankadouken",
-    liveUrl: "https://demo.example.com",
-    featured: true
+    liveUrl: "https://wnp-website-c6f33.web.app/",
+    featured: true,
+    deployments: [
+      { platform: "Firebase", url: "https://wnp-website-c6f33.web.app/" },
+      { platform: "DigitalOcean", url: "https://sea-lion-app-nfnyp.ondigitalocean.app/" },
+      { platform: "Vercel", url: "https://my-web-development-site-bm1uplsp0-dankadoukens-projects.vercel.app/" },
+      { platform: "Railway", url: "https://my-web-development-site-production.up.railway.app/" },
+      { platform: "AWS Amplify", url: "https://main.d2a2rwzyh28gpk.amplifyapp.com/" }
+    ]
   },
   {
     id: 2,

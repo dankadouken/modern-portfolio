@@ -29,6 +29,7 @@ function App() {
       <Projects />
       <About />
       <Contact />
+      <Skills />
       <Footer />
     </div>
   )
